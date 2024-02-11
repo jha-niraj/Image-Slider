@@ -31,7 +31,7 @@ function ImageSlider({imageUrls}) {
                 height:"100%",
                 position: "relative"
             }}>
-            <img src={imageUrls[imageIndex]} className="image-slider-img" alt="First Image" />
+            <img src={imageUrls[imageIndex]} style={{height:"500px", width:"800px"}} className="image-slider-img" alt="First Image" />
             <button className="button" onClick={showPrevImage} style={{left : "0px"}}><ArrowBigLeft /></button>
             <button className="button" onClick={showNextImage} style={{right: "0px"}}><ArrowBigRight /></button>
         </div>
